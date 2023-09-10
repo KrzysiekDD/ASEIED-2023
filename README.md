@@ -1,13 +1,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/KrzysiekDD/ASEIED-2023">
-    <img src="images/covid_logo.png" alt="Logo" width="80" height="80">
+    <img src="images/covid_logo.png" alt="Logo">
   </a>
 
 <h3 align="center">ASEIED 2023 project</h3>
 
   <p align="center">
-    Commoncrawl pandemic-related analysis
+    Terrain tiles analysis for the western hemisphere
     <br />
 
 
@@ -38,6 +38,6 @@
 
 ## Project Overview
 
-For the ASEIED 2023 project we chose the 4th task, which was to count occurences of pandemic-related words in the common crawl dataset in years 2019-2020
+For the ASEIED 2023 project we chose the terrain tiles analysis task, which was to measure and display the terrain height differences in a given region. The region selected was both Americas (basically the whole western hemisphere)
 
 ## Prerequisites
