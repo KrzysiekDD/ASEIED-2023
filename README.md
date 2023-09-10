@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/KrzysiekDD/ASEIED-2023">
-    <img src="images/covid_logo.png" alt="Logo">
+    <img src="images/tiles.png" alt="Logo">
   </a>
 
 <h3 align="center">ASEIED 2023 project</h3>
