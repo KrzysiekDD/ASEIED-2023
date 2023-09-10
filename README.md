@@ -22,15 +22,20 @@
   <ol>
     <li>
       <a href="#project-overview">Project Overview</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#problem-formulation">Problem formulation</a></li>
+        <li><a href="#tech-stack">Tech stack</a></li>
+        <li><a href="#dataset">Dataset</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+      <a href="#solution-process">Solution process</a>
+      <ul>
+        <li><a href="#aws-setup">AWS setup</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#results">Results</a></li>
+      </ul>
+    </li>
   </ol>
 </details>
 
@@ -40,4 +45,16 @@
 
 For the ASEIED 2023 project we chose the terrain tiles analysis task, which was to measure and display the terrain height differences in a given region. The region selected was both Americas (basically the whole western hemisphere)
 
-## Prerequisites
+### Problem formulation
+
+### Tech stack
+
+### Dataset
+
+## Solution process
+
+### AWS setup
+
+### Solution
+
+### Results
