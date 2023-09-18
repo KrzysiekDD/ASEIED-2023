@@ -1,3 +1,4 @@
+<a id="top_of_page"></a>
 <br />
 <div align="center">
   <a href="https://github.com/KrzysiekDD/ASEIED-2023">
@@ -17,7 +18,6 @@
 </div>
 
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary><b>Table of Contents</b></summary>
@@ -34,7 +34,7 @@
       <a href="#solution-process">Solution process</a>
       <ul>
         <li><a href="#aws-setup">AWS setup</a></li>
-        <li><a href="#solution">Solution</a></li>
+        <li><a href="#obstacles">Obstacles</a></li>
         <li><a href="#results">Results</a></li>
       </ul>
     </li>
@@ -112,8 +112,8 @@ In order to reproduce results:
 2. Attach notebook (or workspace in the new console) to the cluster and run all cells of the "raw" notebook.
 
 Alternatively you can link this repository to your notebook(cluster) and then run the "raw" notebook.
-### Solution
-Our approach was
+### Obstacles
+Our first big obstacle to overcome was trying to accomplish the project using Scala and Spark. However, the one and only library we found for plotting in Scala called Vegas was unmaintained and incompatible with the Spark version's we had installed on our cluster. Half-way through the project we decided to switch to Python and PySpark, as the amount of tutorials/documentation/code/problems already solved by others was very significant compared to Scala. Another obstacle was understanding the data format of the terrain tiles. It required of us a notable amount of research related not only of the dataset but also of ways of processing geographical data.
 
 ### Results
 <img src="images/results.png" alt="Results">
@@ -122,3 +122,5 @@ We deduce our calculation methods are rather correct, as plotting the obtained e
 
 ### Summary
 Our initial attempt was to write this project in Scala (Spark), but along the way we pivoted to PySpark. The experience we gained was more or less the same, however we were spared having to deal with many technicalities/areas where achieving the same thing with Scala was much harder than in Python (For example, setting up Vegas to work in the notebook was a mountain to overcome compared to PySpark's `sc.install_pypi_package("matplotlib")`) Nonetheless we obtained hands-on experience with Scala and Spark, and transferred our knowledge to PySpark.
+
+<p align="right"><a href="#top_of_page" style="color: orange;">Back to Start</a></p>
